@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+</head>
+<body>
+    <h1>Welcome to Our Website</h1>
+    
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Top 3 Programming Languages</h2>
+    <ol type="I">
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+    </ol>
+    
+    <!-- External Image -->
+    <h2>Featured Image</h2>
+    <img src="https://images.pexels.com/photos/247851/pexels-photo-247851.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Low Section of Man Against Sky" width="500">
+    
+    <!-- Contact Table -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Dematthew</td>
+            <td>thika</td>
+            <td>+2547567890</td>
+            <td>johndemathew@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Jane wakonyo</td>
+            <td>Kiambu</td>
+            <td>+2547221222</td>
+            <td>janewakonyo@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Michael Kasongo</td>
+            <td>Sugoi</td>
+            <td>+2547432567</td>
+            <td>michaelkasongo@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Sarah Johnson</td>
+            <td>USA</td>
+            <td>+2233445566</td>
+            <td>sarahjohnson@gmail.com</td>
+        </tr>
+        <tr>
+            <td>David Wafula</td>
+            <td>Busia</td>
+            <td>+2547556677</td>
+            <td>davidwafula@gmail.com</td>
+        </tr>
+    </table>
+    
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <!-- Name Field -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+        
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter a strong password" required minlength="6"><br><br>
+        
+        <!-- Date of Birth Field -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <!-- Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="usa">USA</option>
+            <option value="uk">KENYA</option>
+            <option value="canada">NIGERIA</option>
+        </select><br><br>
+        
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br><br>
+        
+        <!-- Checkboxes -->
+        <label>Interests:</label><br>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label><br>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label><br><br>
+        
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
